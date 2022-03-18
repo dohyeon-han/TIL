@@ -1,3 +1,16 @@
+## ✨Web Server vs Web Application Server
+![image](https://user-images.githubusercontent.com/63232876/159043546-7fc88eac-966d-40f8-a880-e4b19f4f6e63.png)
+
+### Web Server란?
+- HTML, CSS 같은 정적인 컨텐츠를 제공하는 서버이다.
+### Web Application Server란?
+- 로직이나 DB 같은 동적인 컨텐츠를 제공하는 서버이다.
+
+### 사용
+- Java에서 사용하는 Tomcat은 WAS이지만 web server를 내장하고 있어 따로 web server를 설치하지 않아도 성능에 큰 문제가 발생하지는 않는다.
+
+- 그럼에도 web server가 WAS 앞단에 존재하는 이유는 WAS에 장애가 발생했을 때, web server에서 해당 WAS를 이용하지 못하게한 후 WAS를 재시작하면 사용자는 WAS에 상관없이 서비스를 이용할 수 있기 때문이다. 
+
 ## ✨Maven vs Gradle
 ### Maven이란?
 - Maven은 지금까지 애플리케이션을 개발하기 위해 반복적으로 진행해왔던 작업들을 지원하기 위하여 등장한 도구이다.
