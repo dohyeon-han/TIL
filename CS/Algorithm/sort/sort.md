@@ -43,11 +43,21 @@ https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/qu
 - 피벗을 기준으로 양쪽을 교환하는 분할 정복 알고리즘이다.
 
 ### 장점
-- 한 번 자리가 결정된 피벗은 이후 계산이 포함되지 않고 참조의 지역성 때문에 시간 복잡도가 O(N logN)인 다른 알고리즘에 비해 더 빠르다.
+- 한 번 자리가 결정된 피벗은 이후 계산이 포함되지 않고 함수를 내부적을 호출할수록 교환하는 배열의 범위가 좁아져 참조의 지역성으로 인해 시간 복잡도가 O(N logN)인 다른 알고리즘에 비해 더 빠르다.
 - 일반적으로 O(logN)의 공간복잡도를 갖는다.
 
 ### 단점
 - 이미 정렬된 데이터의 경우 느리고 공간 복잡도도 O(N)으로 증가한다.
+
+## Merge Sort (병합 정렬)
+![1_D-cvYWgrOnHwm6Xg8INzFg](https://user-images.githubusercontent.com/63232876/164980592-89b3c79e-8772-46e9-8299-c36b377365d3.gif)
+https://thinkdiff.net/merge-sort-swift-e0e77f520f89
+
+### 장점
+- 모든 입력에 대해 O(N logN)의 시간이 걸린다.
+- head부터 탐색해야하는 linked list의 정렬 시 유용하다.
+### 단점
+- 배열로 구현할 경우 데이터 간의 이동이 많기 때문에 다른 O(N logN)알고리즘에 비해 비효율적이고 입력의 크기만큼의 공간이 추가로 필요하다.
 
 ![image](https://user-images.githubusercontent.com/63232876/164023574-b79a42b0-d4f5-4e3f-80db-e7ed66663b70.png)
 
