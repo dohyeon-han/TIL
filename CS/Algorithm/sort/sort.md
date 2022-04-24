@@ -12,6 +12,18 @@ https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/bu
 ### 단점
 - 정렬 시간이 오래 걸린다.
 
+## Selection Sort (선택 정렬)
+![image](https://raw.githubusercontent.com/GimunLee/tech-refrigerator/master/Algorithm/resources/selection-sort-001.gif)
+https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/selection-sort-001.gif
+
+### 장점
+- 구현이 간단하다.
+- 추가적인 메모리 소비가 적다.
+- Bubble sort에 비해 데이터 교환의 횟수가 적다. 
+
+### 단점
+- 이미 정렬된 상태를 포함한 모든 경우에 O(N<sup>2</sup>)가 걸리므로 비효율적이다.
+
 ## Insertion Sort (삽입 정렬)
 ![image](https://raw.githubusercontent.com/GimunLee/tech-refrigerator/master/Algorithm/resources/insertion-sort-001.gif)
 https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/resources/insertion-sort-001.gif
